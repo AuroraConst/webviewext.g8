@@ -61,7 +61,9 @@ val commonSettings = Seq(
       ModuleSplitStyle.SmallModulesFor(List("viteview")))
   },
   scalacOptions ++=  Seq("-Yretain-trees",//necessary in zio-json if any case classes have default parameters
-    "-Xmax-inlines","60"), //setting max inlines to accomodate > 32 fields in case classes
+  "-Xmax-inlines","60", //setting max inlines to accomodate > 32 fields in case classes
+  "-Wunused:all"
+  ), 
 
   libraryDependencies ++= Dependencies.ziojson.value,  
   // libraryDependencies  ++= Dependencies.upickle.value,
