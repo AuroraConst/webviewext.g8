@@ -1,4 +1,4 @@
-package com.axiommd
+package $organization$
 
 import typings.vscode.mod as vscode
 import typings.vscode.anon.Dispose

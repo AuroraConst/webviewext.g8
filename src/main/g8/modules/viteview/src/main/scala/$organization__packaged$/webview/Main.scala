@@ -1,5 +1,4 @@
-package com.axiommd
-
+package $organization$.webview
 
 import com.raquo.laminar.api.L.{*, given}
 import org.scalajs.dom

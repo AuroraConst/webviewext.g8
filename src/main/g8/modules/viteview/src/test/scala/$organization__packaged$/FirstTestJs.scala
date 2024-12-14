@@ -1,4 +1,4 @@
-package com.axiom
+package $organization$
 
 import org.scalatest._,  wordspec._, matchers._
 

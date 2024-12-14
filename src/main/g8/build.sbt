@@ -79,6 +79,7 @@ lazy val viteview = project
   libraryDependencies ++= Dependencies.laminar.value,
   libraryDependencies ++= Dependencies.shapeless3.value,
   libraryDependencies ++= Dependencies.aurorajslibs.value,
+  libraryDependencies ++= Dependencies.scalatest.value,
   // Tell Scala.js that this is an application with a main method
     scalaJSUseMainModuleInitializer := true,
   viteMainJSFolder := {

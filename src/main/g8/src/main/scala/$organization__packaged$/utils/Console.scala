@@ -1,4 +1,4 @@
-package com.axiommd.webview.utils
+package $organization$.webview.utils
 
 import typings.vscode.mod as vscode
 

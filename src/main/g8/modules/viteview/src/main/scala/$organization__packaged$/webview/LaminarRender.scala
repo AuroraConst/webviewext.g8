@@ -1,4 +1,4 @@
-package com.axiommd
+package $organization$.webview
 
 
 import org.scalajs.dom

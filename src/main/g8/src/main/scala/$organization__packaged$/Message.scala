@@ -1,4 +1,4 @@
-package com.axiommd
+package $organization$
 import zio.json._
 
 case class Message(typ:String, value:String)
