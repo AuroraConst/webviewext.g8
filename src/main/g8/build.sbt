@@ -113,8 +113,10 @@ lazy val root = project
     // Compile / npmDependencies ++= Seq("@types/vscode" -> "1.84.1"),
     // Tell ScalablyTyped that we manage `npm install` ourselves
     externalNpm := baseDirectory.value,
+    libraryDependencies ++= Dependencies.scalatest.value,
 
-    testFrameworks += new TestFramework("utest.runner.Framework")
+
+    // testFrameworks += new TestFramework("utest.runner.Framework")
     // publishMarketplace := publishMarketplaceTask.dependsOn(fullOptJS in Compile).value
   )
   .enablePlugins(
