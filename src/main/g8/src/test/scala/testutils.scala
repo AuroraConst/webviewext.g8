@@ -14,6 +14,7 @@ object testutils :
 
   class SjsTesting    extends AnyWordSpec with should.Matchers
 
+
   class LaminarWordSpecTesting extends wordspec.AnyWordSpec with  BeforeAndAfter with should.Matchers :
     given owner: ManualOwner = new ManualOwner()
     before {    }
